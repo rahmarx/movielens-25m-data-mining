@@ -59,11 +59,13 @@ The notebook downloads the dataset automatically on first run.
 
 ```
 .
-├── README.md                            <- this file
-├── notebooks/
-│   ├── checkpoint_1.ipynb     <- Checkpoint 1: dataset selection + initial EDA
-│   ├── checkpoint_2.ipynb     <- Checkpoint 2: research questions + method plan
-│   └── final_project.ipynb    <- Final deliverable (this is the one to read)
+├── README.md
+├── LICENSE
+├── .gitignore
+└── notebooks/
+    ├── checkpoint_1.ipynb     <- Checkpoint 1: dataset selection + initial EDA
+    ├── checkpoint_2.ipynb     <- Checkpoint 2: research questions + method plan
+    └── final_project.ipynb    <- Final deliverable (this is the one to read)
 ```
 
 ---
