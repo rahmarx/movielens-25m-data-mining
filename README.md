@@ -61,6 +61,7 @@ The notebook downloads the dataset automatically on first run.
 .
 ├── README.md
 ├── LICENSE
+├── requirements.txt
 ├── .gitignore
 └── notebooks/
     ├── checkpoint_1.ipynb     <- Checkpoint 1: dataset selection + initial EDA
