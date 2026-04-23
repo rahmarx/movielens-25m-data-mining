@@ -1,6 +1,6 @@
 # 🎬 MovieLens-25M-Data-Mining: Does Order Matter?
 
-Every modern recommender system — Netflix, Spotify, YouTube — is built on the assumption that the ORDER you consume things in contains useful signal. This project tests that assumption directly. Using the MovieLens 25M dataset, I ran two data mining methods head-to-head: **Apriori**, which treats each user's history as an unordered basket, and **PrefixSpan**, which treats it as a time-ordered sequence. Same data, same support threshold, one concrete downstream task. The result was a clean negative finding with a grounded explanation — and a useful lesson about what sequence mining actually requires from your data.
+Every modern recommender system (Netflix, Spotify, YouTube) is built on the assumption that the ORDER you consume things in contains useful signal. This project tests that assumption directly. Using the MovieLens 25M dataset, I ran two data mining methods head-to-head: **Apriori**, which treats each user's history as an unordered basket, and **PrefixSpan**, which treats it as a time-ordered sequence. Same data, same support threshold, one concrete downstream task. The result was a clean negative finding with a grounded explanation, and a useful lesson about what sequence mining actually requires from your data.
 
 ---
 
@@ -22,7 +22,7 @@ This notebook tells the full story: motivation, methods, asymmetry analysis, cas
 
 > **Does the temporal ordering of movie ratings contain pattern-mining signal that an unordered basket representation throws away?**
 
-Frequent-itemset mining treats each user's history as an unordered basket — it knows *what* you watched but not *when*. Sequential pattern mining treats the same history as an ordered sequence and uses the full temporal information. The research question is whether that extra information actually helps, tested on a real downstream task: predicting a user's next watch.
+Frequent-itemset mining treats each user's history as an unordered basket. It knows *what* you watched but not *when*. Sequential pattern mining treats the same history as an ordered sequence and uses the full temporal information. The research question is whether that extra information actually helps, tested on a real downstream task: predicting a user's next watch.
 
 ---
 
