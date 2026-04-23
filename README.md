@@ -6,7 +6,7 @@ Every modern recommender system — Netflix, Spotify, YouTube — is built on th
 
 ## 🎥 Project Video
 
-👉 [Watch the 2-minute project pitch here]((https://www.youtube.com/watch?v=lSR_DlJppf0))
+👉 [Watch the 2-minute project pitch here](https://www.youtube.com/watch?v=lSR_DlJppf0)
 
 ---
 
