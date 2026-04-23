@@ -65,7 +65,7 @@ The notebook downloads the dataset automatically on first run.
 └── notebooks/
     ├── checkpoint_1.ipynb     <- Checkpoint 1: dataset selection + initial EDA
     ├── checkpoint_2.ipynb     <- Checkpoint 2: research questions + method plan
-    └── final_project.ipynb    <- Final deliverable (this is the one to read)
+    └── main_notebook.ipynb    <- Final deliverable (this is the one to read)
 ```
 
 ---
@@ -96,14 +96,14 @@ cd movielens-25m-data-mining
 pip install pandas numpy matplotlib seaborn efficient-apriori prefixspan requests jupyter
 
 # Launch
-jupyter notebook notebooks/637006715_final_project.ipynb
+jupyter notebook notebooks/main_notebook.ipynb
 ```
 
 Then "Run All". The notebook will download MovieLens 25M on the first run (~250 MB, one-time) and run end-to-end in roughly 5 minutes on a laptop.
 
 ### Key parameters
 
-Set at the top of the sampling section of the final notebook. Tweak these to reproduce larger or smaller runs.
+Set at the top of the sampling section of the main notebook. Tweak these to reproduce larger or smaller runs.
 
 | Parameter | Value | Note |
 |---|---|---|
@@ -122,4 +122,4 @@ This repo captures the full arc of the project:
 
 - **Checkpoint 1** (dataset selection + EDA): compared three candidate datasets (MeTooMA tweets, MovieLens 25M, CorDGT dynamic graphs), selected MovieLens 25M, and ran initial EDA covering rating distribution, movie popularity long-tail, and user engagement tiers.
 - **Checkpoint 2** (research questions): proposed three research questions. For the final project these were collapsed into one focused question per the professor's "don't do a hodge-podge" guidance.
-- **Final project**: this notebook. One question, one clear answer, deep analysis, honest conclusion.
+- **Main notebook**: this notebook. One question, one clear answer, deep analysis, honest conclusion.
